@@ -1,0 +1,132 @@
+#home,
+#about,
+#portfolio,
+#contact {
+  padding-top: 10%;
+  padding-bottom: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.title {
+  font-family: Martel, serif;
+}
+#nav-bar,
+#footer {
+  background-color: #C9EDFF;
+  box-shadow: 0px 0px 50px black;
+}
+#nav-bar h1,
+#footer h1 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 25px;
+}
+#nav-bar p,
+#footer p {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+#nav-bar #left,
+#footer #left {
+  float: left;
+}
+#nav-bar ul,
+#footer ul {
+  float: right;
+  padding: 5%;
+}
+.navbar-nav > li > a {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+.navbar {
+  min-height: 5px !important;
+}
+#home,
+#text,
+#portfolio {
+  text-align: center;
+}
+#image img {
+  border-radius: 100%;
+  padding: 5%;
+}
+table img {
+  height: 240px;
+  width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#home {
+  background-image: url("http://i1104.photobucket.com/albums/h322/Isaias_Pomales/portfolio/IMG_6115_zpsszytnsst.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #222;
+  height: 1000px;
+}
+#home h1,
+#home h2 {
+  font-family: 'Playfair Display', serif;
+}
+#about {
+  background-image: url("http://i1104.photobucket.com/albums/h322/Isaias_Pomales/portfolio/a%20mess%20568_zpsszmdwvnk.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  height: 1000px;
+}
+#about h1,
+#about h2 {
+  font-family: 'Playfair Display', serif;
+}
+#portfolio {
+  background-image: url("http://i1104.photobucket.com/albums/h322/Isaias_Pomales/portfolio/IMG_6123_zps8iosx4mw.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #ddd
+  
+  height: 1000px;
+}
+#portfolio h1,
+#portfolio h2,
+#portfolio h3,
+#portfolio h4 {
+  font-family: 'Playfair Display', serif;
+  color: #ddd;
+}
+iframe {
+  height: 150px;
+  width: 200px;
+}
+#contact {
+  background-image: url("http://i1104.photobucket.com/albums/h322/Isaias_Pomales/portfolio/IMG_6433_zps6rhaf9vl.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #C9EDFF;
+  height: 1000px;
+}
+#contact div {
+  padding-top: 10%;
+}
+#contact h1 {
+  font-family: 'Playfair Display', serif;
+}
