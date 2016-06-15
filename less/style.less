@@ -1,17 +1,47 @@
 #home, #about, #portfolio, #contact {
-  padding-top: 10%;
-  padding-bottom: 20%;
-  padding-left: 5%;
-  padding-right: 5%;
+  height: 1000px;
 }
 
 .title {
   font-family: Martel, serif;
 }
 
+.panelHome {
+  margin-top: 10%;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: #eee;
+  height: 200px;
+  box-shadow: 0px 2px 5px black;
+}
+
+.panelAbout {
+  background-color: #fb3;
+  margin-top: 20%;
+  padding: 10px;
+  box-shadow: 0px 2px 5px black;
+  border-radius: 5px;
+}
+
+.panelPortfolio {
+  margin-top: 10%;
+  background-color: #222;
+  height: 150px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 10px white;
+}
+
+.panelContact {
+  margin-top: 5%;
+}
+
 #nav-bar, #footer {
   background-color: #C9EDFF;
   box-shadow: 0px 0px 50px black;
+  font-family: 'Patua One', cursive;
+  font-size: 20px;
   h1 {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 25px;
@@ -46,7 +76,8 @@
 #image, {
   img {
     border-radius: 100%;
-    padding: 5%;
+    box-shadow: 2px 3px 10px black;
+    margin-top: 50%
   }
 }
 
@@ -85,7 +116,7 @@ table {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: white;
+  color: #555;
   height: 1000px;
   
   h1, h2 {
@@ -109,6 +140,14 @@ table {
   h1, h2, h3, h4 {
     font-family: 'Playfair Display', serif;
     color: #ddd;
+  }
+  table {
+    background-color: #222;
+    box-shadow: 0px 0px 10px white;
+    border: 1px solid white;
+    td {
+      padding: 5px;
+    }
   }
 }
 

@@ -7,7 +7,7 @@ $(document).ready(function() {
   
   $(".hover").hover(
     function() {
-      $(this).css('background-color', '#aaa');
+      $(this).css('background-color', '#333');
   }, function() {
       $(this).css('background-color', '');
   });
